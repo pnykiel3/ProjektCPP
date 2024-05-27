@@ -1,0 +1,19 @@
+1. Projekt obiektowy
+    * klasy (biblioteka.h)
+    * konstruktory destruktory (biblioteka.h - Gracz, ~Gracz)
+    * deklaracja przyjaciela (biblioteka.h - class Gracz - friend class Question)
+    * dziedziczenie (biblioteka.h - class Zwyciestwo, class Przegrana - dziedziczy po class Wynik)
+    * polimorfizm (wynik.cpp, polimorficzna funkcja showResult() -> wsk, question.cpp)
+    * klasa abstrakcyjna (biblioteka.h - class Wynik)
+    * czysto wirtualna metoda (biblioteka.h - virtual void showResult(Gracz &g1) = 0;)
+
+2. STL
+    * szablon - VECTOR (question.cpp - getChoices())
+    * iterator + algorytm (game.cpp - pętla for = wypisywanie dostępnych kategorii)
+
+3. C++
+    * zakresowa pętla for (game.cpp - pętla for = wypisywanie dostępnych kategorii)
+    * przeciążanie operatora (biblioteka.h - przeciążanie postfix ++ w Gracz)
+    * wyjątek (interface.cpp - try/catch)
+    * plik .h - biblioteka.h
+    * pliki .cpp - game.cpp, gracz.cpp, interface.cpp, main.cpp, question.cpp, ranking.cpp, wynik.cpp 
